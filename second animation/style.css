@@ -12,4 +12,26 @@ html,body{
     height: 150px;
     width: 150px;
     background-color: #000;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation: animate 2s 2s infinite;
+    animation-fill-mode: forwards;
+}
+.box:hover{
+    animation-play-state: paused;
+}
+@keyframes animate{
+    0%{
+        width: 250px;
+        background-color: tomato;
+    }
+    50%{
+        width: 350px;
+        background-color: dodgerblue;
+    }
+    100%{
+        width: 450px;
+        background-color: blueviolet;
+    }
 }
