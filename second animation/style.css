@@ -8,3 +8,8 @@ html,body{
     width: 100%;
     font-family: sans-serif;
 }
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+}
