@@ -25,4 +25,19 @@ html,body{
     color: #000;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     cursor: pointer;
+    animation-name: simple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes simple{
+    from{
+        background-color: dodgerblue;
+        border-radius: 0%;
+    }
+    to{
+        background-color: blueviolet;
+        border-radius: 50%;
+        color: #fff;
+    }
 }
